@@ -1,0 +1,49 @@
+{
+  "productos": [
+    {
+      "id": 3,
+      "nombre": "Pastel 4",
+      "precio": 30
+    },
+    {
+      "nombre": "Pastel de Zanahoria",
+      "precio": "45",
+      "id": 4
+    },
+    {
+      "nombre": "Pastel de Chocolate",
+      "precio": "60",
+      "id": 5
+    },
+    {
+      "nombre": "Pastel de Fresa",
+      "precio": "40",
+      "id": 6
+    },
+    {
+      "nombre": "Rollos de canela",
+      "precio": "60",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "nombre": "chocolate caliente",
+      "precio": "10"
+    },
+    {
+      "nombre": "fadsfads",
+      "precio": "dfsafdsf",
+      "id": 9
+    },
+    {
+      "nombre": "fadsfads",
+      "precio": "dfsafdsf",
+      "id": 9
+    },
+    {
+      "nombre": "fadsfads",
+      "precio": "dfsafdsf",
+      "id": 9
+    }
+  ]
+}
