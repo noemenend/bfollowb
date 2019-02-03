@@ -1,14 +1,14 @@
 # BFOLLOWB
 
-[![MIT License][license-image]][license-url]
+ [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 
 Social network where users can write messages only for their followers. The user can do request to other user for follow and can administrate his/her requests of other users.  Built with React, Redux and ES6.
 
-Live demo available on <https://melbook.surge.sh>
+Live demo available on <https://bfollowb.netlify.com>
 
 ## Prerequisites
 
-You need to install the following software on your machine before running this project:
+Before running this application you need to install the following software on your machine:
 
 1. Node.js  &ndash; <https://github.com/joyent/node/wiki/Installation>
 2. npm (Node package manager)  &ndash; <https://github.com/isaacs/npm>
@@ -20,61 +20,47 @@ These instructions will get you a copy of the project up and running on your loc
 Download the repository from GitHub
 
 ```shell
-git clone https://github.com/melquiadesvazquez/MelBook.git
+git clone https://github.com/noemenend/bfollowb.git
 ```
 
 Install de project with NPM
 
 ```shell
-cd MelBook
+cd bfollowb
 npm install
-```
-
-Copy .env.example to .env and review the values to match your preferences.
-
-```shell
-mv .env.example .env
 ```
 
 Get a development environment running
 
 ```shell
-npm run start
+npm start
 ```
 
-## Testing
+## Play with the application
 
 Open your browser and go to:
 
 + Website &ndash; <https://localhost:3000>
-+ Alternatively, check the live demo [here](http://melbook.surge.sh)
-+ Login as default user with angryostrich988:r2d2
-+ Click "Follow" next to "Don White"
-+ Click the logout icon on the top right
-+ Login as "Don White" with greenrabbit529:personal
-+ Click on Requests and see if you have one from "Louane Vidal"
++ Alternatively, check the live demo [here](https://bfollowb.netlify.com/)
++ Login as default user with orangepanda844:wonderboy
++ Click "Follow" next to "Sigmar Kebling"
++ Click the logout icon top right
++ Login as "Sigmar Kebling" with bluezebra268/president
++ Click on Requests and see if you have one from ""
 
-![MelBook homepage](https://raw.githubusercontent.com/melquiadesvazquez/MelBook/master/src/assets/web1.jpg)
+![homepage]
+![PrivateProfile Page]
 
-![MelBook posts page](https://raw.githubusercontent.com/melquiadesvazquez/MelBook/master/src/assets/web2.jpg)
-
-![MelBook requests page](https://raw.githubusercontent.com/melquiadesvazquez/MelBook/master/src/assets/web3.jpg)
+![Request Page]
 
 ## Built with
 
 + [Nodejs](https://nodejs.org/) - JavaScript run-time environment
 + [Create React app](https://github.com/facebook/create-react-app) - JavaScript module bundler
 + [Redux](https://github.com/reduxjs/redux) - Predictable state container for JavaScript apps
-+ [Stylus](http://stylus-lang.com/) - CSS preprocessor scripting language
 
 ## Restrictions
 
 + For testing purposes, the user data will be fecth from the randomuser.me database.
-+ The rest of data, such us posts, requests and session will be held in the browser localStorage.
++ The rest of data, such us messages, requests and session will be held in the browser localStorage.
 
-## License
-
-[MIT][license-url]
-
-[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-[license-url]: LICENSE
