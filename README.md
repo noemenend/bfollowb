@@ -48,10 +48,10 @@ Open your browser and go to:
 + Login as "Sigmar Kebling" with bluezebra268/president
 + Click on Requests and see if you have one from ""
 
-![homepage]
-![PrivateProfile Page]
-
-![Request Page]
+![Login page](https://github.com/noemenend/bfollowb/blob/master/public/images/requests.jpg)
+![homepage](https://github.com/noemenend/bfollowb/blob/master/public/images/usersPage.jpg)
+![PrivateProfile Page](https://github.com/noemenend/bfollowb/blob/master/public/images/PrivateProfile.jpg)
+![Request Page](https://github.com/noemenend/bfollowb/blob/master/public/images/requests.jpg)
 
 ## Built with
 
