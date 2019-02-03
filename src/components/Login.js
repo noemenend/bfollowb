@@ -18,7 +18,7 @@ class Login extends Component {
 
   handleChange = event => {
     const target = event.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
+    const value = event.target.type === "checkbox" ? event.target.checked : event.target.value;
     const name = target.name;
 
     this.setState({
@@ -26,12 +26,14 @@ class Login extends Component {
     });
   };
 
+
   handleSubmit = event => {
     event.preventDefault();
     const user = {
       username: this.state.username,
       password: this.state.password
     };
+
     this.props.login(user, this.state.sampledata);
   };
 
@@ -116,7 +118,7 @@ class Login extends Component {
             Login
           </button>
           
-          {errors.msg && <div className="font-weight-bold alert alert-danger alert-dismissible text-center mt-4 ">
+          {errors && errors.msg && <div className="font-weight-bold alert alert-danger alert-dismissible text-center mt-4 ">
              <button type="button" className="close" data-dismiss="alert">&times;</button>
                 {errors.msg}
                         </div>

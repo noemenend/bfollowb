@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import { logoutUser, getUsers, getRequests, followRequest, approveRequest, denyRequest } from '../actions/userActions';
 import {isEmpty} from '../helpers/helper';
-import { Link } from 'react-router-dom';
 import UButtons from './UButtons';
 
 class Requests extends Component {

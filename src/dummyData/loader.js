@@ -1,5 +1,5 @@
 import dummyRequest from './requests';
-import dummyArticles from './articles';
+import dummyArticles from './messages';
 import {isEmpty} from '../helpers/helper';
 
 export const loadStorage = () => {
@@ -37,7 +37,7 @@ export const load = async (key, sampledata = false) => {
   if (key === 'requests') {
     defaultValue = sampledata? dummyRequest : {};
   }
-  else if (key === 'articles') {
+  else if (key === 'messages') {
     defaultValue = sampledata? dummyArticles : {};
   }
   else if (key === 'users') {

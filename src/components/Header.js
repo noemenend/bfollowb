@@ -32,7 +32,7 @@ const Header = props => {
                               <Link to= {'/'} className="nav-link" href="#"> USERS</Link>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#">PROFILE</a>
+                              <Link to={'/profile'} className="nav-link">PROFILE</Link>
                           </li>
                           <li className="nav-item">
                               <Link to = {'/requests'} className="nav-link">REQUESTS</Link>
@@ -42,9 +42,11 @@ const Header = props => {
              
                       <div className="my-2 my-lg-0" >
                         <ul className="navbar-nav mr-auto">
-                            <p></p>
                             <li className="nav-item">
-                                <Link to= {'/logout'} className="nav-link"><i className="fa fa-sign-out-alt"></i></Link>
+                                <Link to = {'/clean'} className="nav-link" title="Clean History"><i class="fas fa-eraser"></i></Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link to= {'/logout'} className="nav-link" title="Logout"><i className="fa fa-sign-out-alt"></i></Link>
                             </li>
                         </ul>
 

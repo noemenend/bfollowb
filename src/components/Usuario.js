@@ -23,6 +23,8 @@ class Usuario extends Component {
 
      render() { 
       const defaultUser = {
+        genre: '',
+        nat:'',
         login: {
           uuid: ''
         },
@@ -43,7 +45,7 @@ class Usuario extends Component {
       const followRequest = this.props.followRequest || {};
       const approveRequest = this.props.approveRequest || {};
       const denyRequest = this.props.denyRequest || {};
-      const {name, picture} = (!isEmpty(this.props.user) && this.props.user) || defaultUser;
+      const {gender,name, picture,nat} = (!isEmpty(this.props.user) && this.props.user) || defaultUser;
 
           return ( 
               
@@ -51,7 +53,8 @@ class Usuario extends Component {
                <img className="card-img-top" srcSet={`${picture.thumbnail} 480w, ${picture.medium} 960w, ${picture.large} 1440w`} alt={`${name.first} ${name.last}`}/>
                <div className="card-body">
                  <h4 className="card-title">{name.first} {name.last}</h4>
-                 <p className="card-text">Some example text.</p>
+                 <p className="card-text"><strong>Gender: </strong> {gender}</p>
+                 <p className="card-text"><strong>Nationality: </strong> {nat}</p>
                 
                  <UButtons
                 follower={follower}
