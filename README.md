@@ -45,8 +45,8 @@ Open your browser and go to:
 + Login as default user with orangepanda844:wonderboy
 + Click "Follow" next to "Sigmar Kebling"
 + Click the logout icon top right
-+ Login as "Sigmar Kebling" with bluezebra268/president
-+ Click on Requests and see if you have one from ""
++ Login as "Sigmar Kebling" with bluezebra268:presiden. Logout (not clear history)
++ Login again as orangepanda844:wonderboy. Click on Requests and see if you have one from "Sigmar kebling"
 
 ![Login page](https://github.com/noemenend/bfollowb/blob/master/public/images/requests.jpg)
 ![homepage](https://github.com/noemenend/bfollowb/blob/master/public/images/usersPage.jpg)
