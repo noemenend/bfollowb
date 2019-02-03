@@ -58,8 +58,8 @@ class Requests extends Component {
             </div>
             
           ))}
-          {users && approved && isEmpty(approved[following]) &&  <div class="alert alert-dismissible alert-light">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
+          {users && approved && isEmpty(approved[following]) &&  <div className="alert alert-dismissible alert-light">
+                <button type="button" className="close" data-dismiss="alert">&times;</button>
                 <strong>Sorry...!</strong>There is no users following you :(.
                   </div>
 
@@ -91,8 +91,8 @@ class Requests extends Component {
                </li>
             </div>
           ))}
-          {users && pending && isEmpty(pending[following]) &&  <div class="alert alert-dismissible alert-light">
-                <button type="button" class="close" data-dismiss="alert">&times;</button>
+          {users && pending && isEmpty(pending[following]) &&  <div className="alert alert-dismissible alert-light">
+                <button type="button" className="close" data-dismiss="alert">&times;</button>
                 <strong>Heads up!</strong>There is no pending request to approve :).
                   </div>
 

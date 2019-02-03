@@ -6,11 +6,7 @@ import { logoutUser } from '../actions/userActions';
 
 const Header = props => {
     const isAuthenticated = props.isAuthenticated;
-    const handleMenu = event => {
-      event.preventDefault();
-      const menu = document.getElementById('menuTop');
-      menu.classList.toggle('active');
-    };
+ 
 
           return ( 
            
@@ -29,7 +25,7 @@ const Header = props => {
                   <div className="collapse navbar-collapse" id="navbarColor01">
                       <ul className="navbar-nav mr-auto">
                           <li className="nav-item active">
-                              <Link to= {'/'} className="nav-link" href="#"> USERS</Link>
+                              <Link to= {'/'} className="nav-link"> USERS</Link>
                           </li>
                           <li className="nav-item">
                               <Link to={'/profile'} className="nav-link">PROFILE</Link>
@@ -43,7 +39,7 @@ const Header = props => {
                       <div className="my-2 my-lg-0" >
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item">
-                                <Link to = {'/clean'} className="nav-link" title="Clean History"><i class="fas fa-eraser"></i></Link>
+                                <Link to = {'/clean'} className="nav-link" title="Clean History"><i className="fas fa-eraser"></i></Link>
                             </li>
                             <li className="nav-item">
                                 <Link to= {'/logout'} className="nav-link" title="Logout"><i className="fa fa-sign-out-alt"></i></Link>

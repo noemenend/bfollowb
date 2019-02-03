@@ -16,7 +16,7 @@ class Message extends Component {
   render() {
     const {message} = this.props;
     return (
-      <article class="mt-3">
+      <article className="mt-3">
         <div>
           <header>
             <h2>{Parser(message.title)}</h2>

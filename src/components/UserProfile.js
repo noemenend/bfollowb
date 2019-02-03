@@ -41,8 +41,8 @@ class UserProfile extends Component {
     const {requests} = !isEmpty(this.props.requests) && this.props;
     return this.props.auth.isAuthenticated && (
     
-      <div class="row mt-5">
-        <div class="col-sm-4">
+      <div className="row mt-5">
+        <div className="col-sm-4">
         <User
             user={user}
             type="profile"
@@ -52,9 +52,9 @@ class UserProfile extends Component {
             followRequest={this.props.followRequest}
             denyRequest={this.props.denyRequest}
           />
-            <Link className="btn btn-secondary" to="/users"><i class="far fa-arrow-alt-circle-left"></i> Back</Link>
+            <Link className="btn btn-secondary" to="/users"><i className="far fa-arrow-alt-circle-left"></i> Back</Link>
         </div>
-        <div class="col-sm-8">
+        <div className="col-sm-8">
         {messages && messages[uuid] && messages[uuid].map((message, index) => (
             <Message
               key={index}

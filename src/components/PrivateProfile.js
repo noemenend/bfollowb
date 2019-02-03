@@ -31,13 +31,13 @@ class PrivateProfile extends Component {
     const {messages} = !isEmpty(this.props.messages) && this.props;
 
     return this.props.auth.isAuthenticated && (
-      <div class="row mt-5">
-      <div class="col-sm-4">
+      <div className="row mt-5">
+      <div className="col-sm-4">
       <Usuario
           user={user}
           type="me"
         />
-          <Link className="btn btn-secondary" to="/users"><i class="far fa-arrow-alt-circle-left"></i> Back</Link>
+          <Link className="btn btn-secondary" to="/users"><i className="far fa-arrow-alt-circle-left"></i> Back</Link>
       </div>
       <div className="col-sm-8">
       {messages && messages[uuid] && messages[uuid].map((message, j) => (

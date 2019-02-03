@@ -5,8 +5,8 @@ import { login } from "../actions/userActions";
 
 class Login extends Component {
   state = {
-    username: "angryostrich988",
-    password: "r2d2",
+    username: "orangepanda844",
+    password: "wonderboy",
     sampledata: false,
     errors: {}
   };
